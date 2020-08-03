@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: "Saúde sexual e gravidez: pré-natal e via de parto. Por Rozeli de
   Medeiros Poloni"
-date: 2019-12-23T19:45:42.050Z
+date: 2019-12-12T19:45:42.050Z
 description: Confira a segunda parte do artigo “Saúde sexual na gravidez” pela
   Dra. Rozeli de Medeiros Poloni
 featuredpost: true
