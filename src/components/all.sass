@@ -2,13 +2,15 @@
 
 // Config vars
 // Kaldi logo brand color: #FD461E
-$kaldi-red: #D64000
-$kaldi-red-invert: #fff
+$doctor-blue: #3e2dbf
+$doctor-blue-invert: #fff
 
-$primary: $kaldi-red
-$primary-invert: $kaldi-red-invert
+$primary: $doctor-blue
+$primary-invert: $doctor-blue-invert
 $body-color: #333
 $black: #2b2523
+
+
 
 .navbar .navbar-menu
   box-shadow:none !important
@@ -61,10 +63,10 @@ $black: #2b2523
     border-radius: .25rem
     text-decoration: none
     font-weight: 700
-    color: #CC3700
+    color: #353859
     text-align: center
-    -webkit-box-shadow: inset 0 0 0 2px #CC3700
-    box-shadow: inset 0 0 0 2px #f40
+    -webkit-box-shadow: inset 0 0 0 2px #353859
+    box-shadow: inset 0 0 0 2px #353859
     -webkit-transition: all .15s ease
     transition: all .15s ease
 
@@ -88,9 +90,9 @@ footer.footer
 $menu-item-color: $white-ter
 $menu-item-hover-color: $black !important
 $menu-item-hover-background-color: $black
-$menu-item-active-color: $kaldi-red-invert
-$menu-item-active-background-color:	$kaldi-red-invert
-$menu-list-border-left: 1px solid $kaldi-red-invert
+$menu-item-active-color: $doctor-blue-invert
+$menu-item-active-background-color:	$doctor-blue-invert
+$menu-list-border-left: 1px solid $doctor-blue-invert
 $menu-label-color: $white-ter
 
 
@@ -114,7 +116,7 @@ $menu-label-color: $white-ter
 
 // blog roll
 .blog-list-item.is-featured
-  background-color: #d6400033;
+  background-color: #bdcdf680;
 .blog-list-item header
   display: flex;
   margin-bottom: 1em;
@@ -125,6 +127,12 @@ $menu-label-color: $white-ter
 
 @import "~bulma"
 
+
+body,
+button,
+input,
+textarea
+  font-family: 'Quicksand', sans-serif !important;
 
 // responsiveness
 +tablet-only
@@ -138,3 +146,5 @@ $menu-label-color: $white-ter
     text-align: center;
     max-width: 70%;
     margin: 0 0 1em;
+
+  color: #0004ff
