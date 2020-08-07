@@ -14,6 +14,8 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
           <div className="column is-10 is-offset-1">
             <div className="section">
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+                <meta name="description" content="Dra. Rozeli de Medeiros Poloni abre um pouco de sua história e conta como começou sua paixão pela medicina" />
+                <meta name="keywords" content="Rozeli de Medeiros Poloni, Rozeli, autobiografia"></meta>
                 {title}
               </h2>
               <PageContent className="content" content={content} />
